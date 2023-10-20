@@ -48,4 +48,15 @@ public class LinkedList {
     public void getLength() {
         System.out.println("Length: " + length);
     }
+
+    public void append(int value){
+        Node newNode = new Node(value);
+        if(length == 0){
+            head = newNode;
+        } else {
+            tail.next = newNode;
+        }
+        tail = newNode;
+        length++;
+    }
 }
