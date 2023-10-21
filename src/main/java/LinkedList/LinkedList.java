@@ -102,4 +102,13 @@ public class LinkedList {
         }
         return temp;
     }
+
+    public Node get(int index) {
+        Node temp = head;
+        if (index < 0 || index >= length) return null;
+        for (int i = 0; i < index; i++) {
+            temp = temp.next;
+        }
+        return temp;
+    }
 }
