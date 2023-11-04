@@ -14,7 +14,6 @@ public class PredicateStudentExample {
 
     public static void filterStudentByGradeLevel() {
         System.out.println("filterStudentByGradeLevel : ");
-
         studentList.forEach((student -> {
             if (p1.test(student)) {
                 System.out.println(student);
