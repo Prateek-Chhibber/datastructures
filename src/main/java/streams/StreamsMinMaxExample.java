@@ -1,6 +1,5 @@
 package streams;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -13,6 +12,12 @@ public class StreamsMinMaxExample {
         return result;
     }
 
+    public static Optional<Integer> findMinMiValue(List<Integer> integerList) {
+        Optional<Integer> result = integerList.stream()
+                .reduce((x,y)-> x<y ? x : y);
+        return result;
+    }
+
     public static Optional<Integer> findMinMaxValueOptional(List<Integer> integerList) {
         Optional<Integer> result = integerList.stream()
                 .reduce((x,y)-> x>y ? x : y);
@@ -20,14 +25,23 @@ public class StreamsMinMaxExample {
     }
 
     public static void main(String[] args) {
-//        List<Integer> integerList = Arrays.asList(6,7,8,9,10);
-        List<Integer> integerList = new ArrayList<>();
+        List<Integer> integerList = Arrays.asList(6,7,8,9,10);
+//        List<Integer> integerList = new ArrayList<>();
         int result = findMinMaxValue(integerList);
         System.out.println(findMinMaxValue(integerList));
 
         Optional<Integer> result1 = findMinMaxValueOptional(integerList);
         if (result1.isPresent()) {
             System.out.println("max value is : " + result1.get());
+        } else {
+            System.out.println("List is empty");
+        }
+
+        Optional<Integer> minValue = findMinMiValue(integerList);
+        if (minValue.isPresent()) {
+            System.out.println("Min value is : " + minValue.get());
+        } else {
+            System.out.println("No min value is found");
         }
 
     }
