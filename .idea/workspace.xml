@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6231510-406e-409f-83f4-fc2a8ed07f3e" name="Changes" comment="Sum of all elements in java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayQuestions/SecondLargestInteger.java" afterDir="false" />
+    <list default="true" id="b6231510-406e-409f-83f4-fc2a8ed07f3e" name="Changes" comment="Find 2nd Largest num in array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayQuestions/EqualityOfTwoArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +44,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SecondLargestInteger">
-    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayQuestions.FindDuplicates" />
+  <component name="RunManager" selected="Application.EqualityOfTwoArrays">
+    <configuration name="EqualityOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayQuestions.EqualityOfTwoArrays" />
       <module name="DSPractice" />
       <extension name="coverage">
         <pattern>
@@ -57,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumericStreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numericstreams.NumericStreamsExample" />
+    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayQuestions.FindDuplicates" />
       <module name="DSPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="numericstreams.*" />
+          <option name="PATTERN" value="ArrayQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualityOfTwoArrays" />
         <item itemvalue="Application.SecondLargestInteger" />
         <item itemvalue="Application.FindDuplicates" />
         <item itemvalue="Application.SumOfAllElements" />
         <item itemvalue="Application.Result" />
-        <item itemvalue="Application.NumericStreamsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -127,20 +128,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650807010608</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Prepend item in LinkedList">
-      <created>1697886651986</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1697886651986</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Remove first item in LinkedList">
-      <created>1697887287738</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1697887287738</updated>
     </task>
     <task id="LOCAL-00007" summary="Get Node by index in LinkedList">
       <created>1697887986722</created>
@@ -471,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711442862167</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="IDE details">
+      <created>1711544243692</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1711544243692</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Find 2nd Largest num in array">
+      <created>1711544285741</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1711544285741</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,8 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Function - Function Interface- Part 1" />
-    <MESSAGE value="Function - Function Interface- Part 2" />
     <MESSAGE value="BiFunction Functional Interface" />
     <MESSAGE value="UnaryOperaror and BinaryOperator Functional Interface" />
     <MESSAGE value="Supplier - Functional Interface" />
@@ -511,7 +510,9 @@
     <MESSAGE value="Lab : Stream Operation - limit() and skip()" />
     <MESSAGE value="Introduction to Numeric Streams" />
     <MESSAGE value="Sum of all elements in java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sum of all elements in java" />
+    <MESSAGE value="IDE details" />
+    <MESSAGE value="Find 2nd Largest num in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find 2nd Largest num in array" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
